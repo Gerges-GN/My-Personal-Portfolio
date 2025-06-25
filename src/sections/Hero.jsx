@@ -4,7 +4,7 @@ import { Button } from "../components/ui/Button";
 
 function Hero() {
   return (
-    <section id="about" className="min-h-[calc (100vh-64px)]">
+    <section className="min-h-[calc (100vh-64px)]">
       <div className="flex flex-col-reverse md:flex-row gap-5 justify-between items-center">
         {/* left side */}
         <div className="max-w-lg h-[450px] lg:h-[550px] flex-1/2 flex flex-col justify-center">

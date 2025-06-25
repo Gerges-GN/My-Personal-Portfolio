@@ -1,4 +1,4 @@
-export const Card = ({ children }) => {
+export const SkillsCard = ({ children }) => {
   return (
     <div
       className="

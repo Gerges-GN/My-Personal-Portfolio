@@ -11,12 +11,12 @@ function Navbar() {
   return (
     <nav className="max-w-screen-xl mx-auto px-4 md:px-10 lg:px-20 py-5 relative flex justify-between items-center font-semibold leading-6">
       <div>
-        <h3 className="text-lg font-bold hover:text-neutral-700 select-none">
+        <h3 className="text-lg font-bold hover:text-(--neutral) select-none">
           Gerges.
         </h3>
       </div>
 
-      <ul className="hidden md:flex gap-3 h-[21px] *:hover:-mx-1 *:border-transparent *:border-b-2 *:hover:border-neutral-700 *:hover:text-neutral-700 *:">
+      <ul className="hidden md:flex gap-3 h-[21px] *:hover:-mx-1 *:border-transparent *:border-b-2 *:hover:border-(--neutral) *:hover:text-(--neutral) *:duration-150">
         <li>
           <a href="#about">About Me</a>
         </li>

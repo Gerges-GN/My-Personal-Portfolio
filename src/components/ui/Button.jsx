@@ -2,7 +2,7 @@ export const Button = ({ url, children, secondary, className }) => {
   if (!secondary) secondary = false;
   if (!className) className = "";
   const primaryStyles =
-    "bg-black text-white hover:bg-neutral-700 focus:bg-white focus:text-black";
+    "bg-black text-white hover:bg-(--neutral) focus:bg-white focus:text-black";
   const secondaryStyles = "hover:bg-black hover:text-white";
   return (
     <a

@@ -4,12 +4,12 @@ import { Button } from "../components/ui/Button";
 
 function Hero() {
   return (
-    <section className="min-h-[calc (100vh-64px)]">
-      <div className="max-w-screen-xl mx-auto px-4 md:px-10 lg:px-20 py-5 md:py-14 flex flex-col-reverse md:flex-row gap-5 justify-between items-center">
+    <section id="about" className="min-h-[calc (100vh-64px)]">
+      <div className="flex flex-col-reverse md:flex-row gap-5 justify-between items-center">
         {/* left side */}
         <div className="max-w-lg h-[450px] lg:h-[550px] flex-1/2 flex flex-col justify-center">
           <div className="my-auto">
-            <div className="text-2xl md:text-3xl md:leading-9 lg:text-4xl mb-5 lg:leading-12 font-light">
+            <div className="text-2xl md:leading-9 lg:text-4xl mb-5 lg:leading-12 font-light">
               <h1>
                 Hello I am <span className="font-bold"> Gegres Naguib. </span>
               </h1>
@@ -24,14 +24,13 @@ function Hero() {
               </p>
             </div>
           </div>
-          <div className="text-xl mt-10  md:mb-2">
+          <div className="text-xl mt-10 b-2 flex gap-3">
             <Button secondary url="https://github.com/Gerges-GN/">
               <FontAwesomeIcon icon={faGithub} />
             </Button>
             <Button
               secondary
               url="https://www.linkedin.com/in/gerges-naguib-319987218/"
-              className="ml-3"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </Button>
@@ -42,7 +41,7 @@ function Hero() {
           <img
             src="./Personal-pic-web.png"
             alt="Gerges Naguib"
-            className="max-w-[420px] max-h-[400px] lg:max-h-full "
+            className="max-w-[450px] xl:max-w-[500px] max-h-[400px] lg:max-h-full "
           />
         </div>
       </div>

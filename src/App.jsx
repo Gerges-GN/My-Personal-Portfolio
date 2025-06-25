@@ -9,9 +9,9 @@ import Skills from "./sections/Skills";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
-      <main className="min-h-screen">
+      <main className="min-h-screen *:*:max-w-screen-xl *:*:mx-auto *:*:px-4 *:*:md:px-10 *:*:lg:px-20 *:*:py-10 *:*:md:pt-14">
         <Hero />
         <Skills />
         <Experience />
@@ -20,7 +20,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

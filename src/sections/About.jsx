@@ -1,7 +1,7 @@
 function About() {
   return (
     <section id="about">
-      <div>
+      <div className="mb-10">
         <h1 className="text-3xl md:text-4xl py-5 mb-5 font-semibold text-center">
           About Me
         </h1>

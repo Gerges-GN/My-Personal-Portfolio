@@ -1,29 +1,8 @@
 import { SkillsCard } from "../components/ui/SkillsCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHtml5,
-  faCss3Alt,
-  faJsSquare,
-  faReact,
-  faGitAlt,
-} from "@fortawesome/free-brands-svg-icons";
-import {
-  faCode,
-  faCogs,
-  faMobileScreenButton,
-} from "@fortawesome/free-solid-svg-icons";
+import { skills } from "../components/utils/data";
 
 function Skills() {
-  const skills = [
-    { name: "HTML5", icon: faHtml5 },
-    { name: "CSS3", icon: faCss3Alt },
-    { name: "JavaScript", icon: faJsSquare },
-    { name: "React.js", icon: faReact },
-    { name: "Context API", icon: faCogs },
-    { name: "Git", icon: faGitAlt },
-    { name: "Tailwind CSS", icon: faCode },
-    { name: "Responsive Design", icon: faMobileScreenButton },
-  ];
   return (
     <section id="skills">
       <div>

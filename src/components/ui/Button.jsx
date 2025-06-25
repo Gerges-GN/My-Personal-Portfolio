@@ -1,17 +1,32 @@
-export const Button = ({ url, children, secondary, className }) => {
-  if (!secondary) secondary = false;
-  if (!className) className = "";
-  const primaryStyles =
-    "bg-black text-white hover:bg-(--neutral) focus:bg-white focus:text-black";
-  const secondaryStyles = "hover:bg-black hover:text-white";
+export const Button = ({
+  url,
+  children,
+  secondary,
+  black,
+  className = "",
+  onClick,
+}) => {
+  const baseStyle =
+    "px-3 py-2.5 rounded outline-2 outline-black transition flex items-center w-fit";
+
+  const primaryStyle =
+    "bg-black text-white hover:bg-neutral-800 focus:bg-white focus:text-black";
+  const secondaryStyle = "hover:bg-black hover:text-white";
+  const blackStyle = "bg-white text-black hover:bg-zinc-200";
+
+  const variantStyle = black
+    ? blackStyle
+    : secondary
+    ? secondaryStyle
+    : primaryStyle;
+
   return (
     <a
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className={`${
-        secondary ? secondaryStyles : primaryStyles
-      } ${className} px-3 py-2.5 rounded outline-2 outline-black transition flex items-center w-fit`}
+      onClick={onClick}
+      className={`${variantStyle} ${baseStyle} ${className}`}
     >
       {children}
     </a>

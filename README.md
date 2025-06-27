@@ -53,4 +53,4 @@ If you'd like to get in touch:
 -  **Email:** gerges7001@gmail.com  
 -  [LinkedIn](https://www.linkedin.com/in/gerges-naguib-319987218/)  
 -  [GitHub](https://github.com/Gerges-GN)  
--  [WhatsApp](https://wa.me/201112644702)
+-  E-mail: gerges.naguib.dev@gmail.com

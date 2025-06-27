@@ -91,7 +91,7 @@ function Contact() {
           </p>
             <span className="flex items-center gap-2 md:gap-3 leading-6 md:leading-8 text-md  md:text-lg text-(--neutral)">
               <FontAwesomeIcon icon={faEnvelope} />
-              <h4>gerges7001@gmail.com</h4>
+              <h4>gerges.naguib.dev@gmail.com</h4>
             </span>
             <span className="flex items-center gap-2 md:gap-3 leading-6 md:leading-8 text-md  md:text-lg text-(--neutral)">
               <FontAwesomeIcon icon={faPhone} />

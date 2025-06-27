@@ -32,19 +32,19 @@ export const projects = [
     - React Router for Navigation - Seamless page transitions
     - Category-based Content - Dynamic video recommendations
     - Material UI - Clean and responsive UI`,
-    src: "/yt-clone Mockup-low.jpg",
+    src: "/yt-clone.webp",
     liveURL: "https://yt-clone-six-mu.vercel.app",
   },
   {
     title: "Destiny - Modern Landing Page UI",
     description: `A modern and responsive landing page built using Bootstrap 5, HTML5, and CSS3. Designed to showcase a fictional service with a clean layout, animated elements, and smooth user experience. Integrated with AOS.js for scroll-triggered animations and Font Awesome for rich iconography.`,
-    src: "/Destiny Website Mockup low.jpg",
+    src: "/destiny.webp",
     liveURL: "https://gerges-gn.github.io/Destiny/",
   },
   {
     title: "Responsive React Portfolio",
     description: `A clean, responsive portfolio website built with React.js and Tailwind CSS. It showcases projects, skills, and personal info in a modern layout optimized for both desktop and mobile devices. Features smooth scroll navigation, modular components, and a dark-themed UI with focus on accessibility and performance.`,
-    src: "/Portfolio Mock-Up.jpg",
+    src: "/portfolio.webp",
     liveURL: "https://responsive-react-portfolio.netlify.app",
   },
 ];

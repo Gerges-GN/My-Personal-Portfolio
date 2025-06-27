@@ -1,6 +1,6 @@
 import { SkillsCard } from "../components/ui/SkillsCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { skills } from "../components/utils/data";
+import { skills } from "../utils/data";
 
 function Skills() {
   return (

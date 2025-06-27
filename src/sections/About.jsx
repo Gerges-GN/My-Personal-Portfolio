@@ -7,11 +7,15 @@ function About() {
         </h1>
         <div className="flex flex-col md:flex-row md:gap-10 md:max-h-[540px]">
           <div className="flex-1/2 *:max-h-full ">
-            <img src="/Personal-pic_rec_web.png" alt="Gerges Naguib" />
+            <img
+              src="/about-me.webp"
+              loading="lazy"
+              alt="Gerges Naguib"
+            />
           </div>
           <div className="md:flex-3/3 lg:flex-1/2 py-5 pt-10 xl:mt-16">
             <div className="mb-5">
-              <h5 className="text-2xl font-semibold mb-3">Who Am I</h5>
+              <h3 className="text-2xl font-semibold mb-3">Who Am I</h3>
               <p className="mb-4 text-justify text-(--neutral)">
                 I'm a frontend developer passionate about crafting clean,
                 responsive, and accessible user interfaces using modern tools

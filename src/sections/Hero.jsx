@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Button } from "../components/ui/Button";
+import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
@@ -11,7 +12,15 @@ function Hero() {
           <div className="my-auto">
             <div className="text-2xl md:leading-9 lg:text-4xl mb-5 lg:leading-12 font-light">
               <h1>
-                Hello I am <span className="font-bold"> Gegres Naguib. </span>
+                {/* Hello I am <span className="font-bold"> Gegres Naguib. </span> */}
+                
+                <Typewriter
+                  options={{
+                    strings: `Hello I am <span style="font-weight:600"> Gegres Naguib.</span>`,
+                    autoStart: true,
+                    delay: 50
+                  }}
+                />
               </h1>
               <h2 className="font-normal mt-2">Frontend Developer</h2>
             </div>
@@ -39,7 +48,8 @@ function Hero() {
         {/* Right side */}
         <div className="flex-1/2 md:max-h-[550px] max-h-72 w-full overflow-hidden flex justify-center md:justify-end flex-wrap">
           <img
-            src="./Personal-pic-web.png"
+            src="/hero.webp"
+            loading="eager"
             alt="Gerges Naguib"
             className="max-w-[450px] xl:max-w-[500px] max-h-[400px] lg:max-h-full "
           />

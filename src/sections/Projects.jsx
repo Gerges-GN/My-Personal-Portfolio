@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "../components/ui/Button";
 import { ProjectCard } from "../components/ui/ProjectCard";
-import { projects } from "../components/utils/data";
+import { projects } from "../utils/data";
 
 function Projects() {
   const [visibleCount, setVisibleCount] = useState(4);

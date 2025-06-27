@@ -16,7 +16,7 @@ function Hero() {
                 
                 <Typewriter
                   options={{
-                    strings: `Hello I am <span style="font-weight:600"> Gegres Naguib.</span>`,
+                    strings: `Hello I am <span style="font-weight:600"> Gerges Naguib.</span>`,
                     autoStart: true,
                     delay: 50
                   }}

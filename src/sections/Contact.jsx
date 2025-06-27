@@ -31,7 +31,7 @@ function Contact() {
           <div className="flex-1/2 md:pr-10">
             {/* Form */}
             <form
-              action="https://formsubmit.co/gerges7001@gmail.com"
+              action="https://formsubmit.co/gerges.naguib.dev@gmail.com"
               method="POST"
               className="max-w-[450px] mx-auto"
             >
@@ -86,9 +86,9 @@ function Contact() {
               Let's talk!
             </h1>
             <p className="text-(--neutral) mb-6 leading-6">
-            I seek to push the limits of creativity to create high-engaging,
-            user-friendly, and memorable interactive experiences.
-          </p>
+              I seek to push the limits of creativity to create high-engaging,
+              user-friendly, and memorable interactive experiences.
+            </p>
             <span className="flex items-center gap-2 md:gap-3 leading-6 md:leading-8 text-md  md:text-lg text-(--neutral)">
               <FontAwesomeIcon icon={faEnvelope} />
               <h4>gerges.naguib.dev@gmail.com</h4>

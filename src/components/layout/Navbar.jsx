@@ -58,27 +58,27 @@ function Navbar() {
         >
           <li>
             <a href="#about" onClick={() => setIsOpen(false)}>
-              <p>About Me</p> 
+              <p>About Me</p>
             </a>
           </li>
           <li>
             <a href="#skills" onClick={() => setIsOpen(false)}>
-              <p>Skills</p> 
+              <p>Skills</p>
             </a>
           </li>
           <li>
             <a href="#projects" onClick={() => setIsOpen(false)}>
-              <p>Projects</p> 
+              <p>Projects</p>
             </a>
           </li>
           <li>
             <a href="#contact" onClick={() => setIsOpen(false)}>
-              <p>Contact Me</p> 
+              <p>Contact Me</p>
             </a>
           </li>
           <li>
-            <Button url="https://drive.google.com/file/d/1vunOLBrPfvNWVdA3nZAX4t5mEr-VXtEp/view?usp=drivesdk">
-              <p>Resume</p> 
+            <Button url="https://drive.google.com/file/d/1GGkZlqzCkszTx2uTAsOIkE-CntyT2ZR-/view?usp=drive_link">
+              <p>Resume</p>
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 className="pl-2"

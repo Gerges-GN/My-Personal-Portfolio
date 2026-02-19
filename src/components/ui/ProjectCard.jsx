@@ -6,11 +6,11 @@ export const ProjectCard = ({ num, title, description, src, liveURL }) => {
   const { rotate, onMouseMove, onMouseLeave } = useCardTilt(10, 15);
 
   return (
-    <div className="flex flex-col lg:flex-row md:items-center gap-5 mb-10">
+    <div className="flex flex-col lg:flex-row md:items-center gap-5 mb-10 md:mb-20">
       <div
         className={`${
           num % 2 == 0 && "lg:order-1 "
-        } flex-1/2 max-w-[440px] sm:min-w-[350px] sm:max-h-[300px] lg:min-h-[350px] mx-auto overflow-hidden flex justify-center items-center rounded-2xl bg-white`}
+        } flex-1/2 max-w-[440px] sm:min-w-[350px] sm:max-h-[300px] lg:min-h-[300px] mx-auto overflow-hidden flex justify-center items-center rounded-2xl bg-white`}
         onMouseMove={onMouseMove}
         onMouseLeave={onMouseLeave}
         style={{
@@ -31,13 +31,13 @@ export const ProjectCard = ({ num, title, description, src, liveURL }) => {
           href={liveURL}
           target="_blank"
           rel="noopener noreferrer"
-          className="max-w-[440px] sm:min-w-[350px] sm:max-h-[300px] lg:min-h-[350px]"
+          className="max-w-[440px] sm:min-w-[350px] sm:max-h-[300px] lg:min-h-[300px]"
         >
           <img
             src={src}
             alt={title || "Project Image"}
             loading="lazy"
-            className="h-full"
+            className="h-full w-auto"
           />
         </a>
       </div>

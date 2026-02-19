@@ -77,7 +77,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <Button url="https://drive.google.com/file/d/1GGkZlqzCkszTx2uTAsOIkE-CntyT2ZR-/view?usp=drive_link">
+            <Button url="https://drive.google.com/file/d/1glZfQqa_sGSj3QoCI_yLd1GNhJlbgz3g/view?usp=drive_link">
               <p>Resume</p>
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}

@@ -3,27 +3,41 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useCardTilt } from "../../hooks/CardTilt";
 
 export const ProjectCard = ({ num, title, description, src, liveURL }) => {
-  const { rotate, onMouseMove, onMouseLeave } = useCardTilt(10,15);
+  const { rotate, onMouseMove, onMouseLeave } = useCardTilt(10, 15);
 
   return (
     <div className="flex flex-col lg:flex-row md:items-center gap-5 mb-10">
       <div
         className={`${
-          num % 2 == 0 && "md:order-1 "
+          num % 2 == 0 && "lg:order-1 "
         } flex-1/2 max-w-[440px] sm:min-w-[350px] sm:max-h-[300px] lg:min-h-[350px] mx-auto overflow-hidden flex justify-center items-center rounded-2xl bg-white`}
         onMouseMove={onMouseMove}
         onMouseLeave={onMouseLeave}
         style={{
           transform: `perspective(1000px) rotateX(${rotate.x}deg) rotateY(${rotate.y}deg) scale3d(1, 1, 1)`,
-          transition: "all 200ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s",
+          WebkitTransform: `perspective(1000px) rotateX(${rotate.x}deg) rotateY(${rotate.y}deg) scale3d(1, 1, 1)`,
+          MozTransform: `perspective(1000px) rotateX(${rotate.x}deg) rotateY(${rotate.y}deg) scale3d(1, 1, 1)`,
+          msTransform: `perspective(1000px) rotateX(${rotate.x}deg) rotateY(${rotate.y}deg) scale3d(1, 1, 1)`,
+          transition: "transform 200ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s",
+          WebkitTransition:
+            "transform 200ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s",
+          MozTransition:
+            "transform 200ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s",
+          msTransition:
+            "transform 200ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s",
         }}
       >
-        <a href={liveURL} target="_blank" rel="noopener noreferrer">
+        <a
+          href={liveURL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="max-w-[440px] sm:min-w-[350px] sm:max-h-[300px] lg:min-h-[350px]"
+        >
           <img
             src={src}
             alt={title || "Project Image"}
             loading="lazy"
-            className="max-h-[250px] sm:max-h-[350px] min-w-fit text-black"
+            className="h-full"
           />
         </a>
       </div>

@@ -24,6 +24,12 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Hotel Reservation System",
+    description: `A modern, web-based platform for managing hotel reservations, designed to streamline operations for guests, staff, and administrators. This system features a responsive frontend built with React and supports flexible backend integrations (simulated Local Storage or Headless CMS).`,
+    src: "/hrs.webp",
+    liveURL: "https://hrs-gerges.vercel.app/",
+  },
+  {
     title: "YouTube Clone",
     description: `Tech Stack: Vite, ReactJS, React Router, YouTube Data API v3 (via RapidAPI), Material UI (MUI)
     
@@ -41,10 +47,10 @@ export const projects = [
     src: "/destiny.webp",
     liveURL: "https://gerges-gn.github.io/Destiny/",
   },
-  {
-    title: "Responsive React Portfolio",
-    description: `A clean, responsive portfolio website built with React.js and Tailwind CSS. It showcases projects, skills, and personal info in a modern layout optimized for both desktop and mobile devices. Features smooth scroll navigation, modular components, and a dark-themed UI with focus on accessibility and performance.`,
-    src: "/portfolio.webp",
-    liveURL: "https://responsive-react-portfolio.netlify.app",
-  },
+  // {
+  //   title: "Responsive React Portfolio",
+  //   description: `A clean, responsive portfolio website built with React.js and Tailwind CSS. It showcases projects, skills, and personal info in a modern layout optimized for both desktop and mobile devices. Features smooth scroll navigation, modular components, and a dark-themed UI with focus on accessibility and performance.`,
+  //   src: "/portfolio.webp",
+  //   liveURL: "https://responsive-react-portfolio.netlify.app",
+  // },
 ];

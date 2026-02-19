@@ -7,23 +7,21 @@ function About() {
         </h1>
         <div className="flex flex-col md:flex-row md:gap-10 md:max-h-[540px]">
           <div className="flex-1/2 *:max-h-full ">
-            <img
-              src="/about-me.webp"
-              loading="lazy"
-              alt="Gerges Naguib"
-            />
+            <img src="/about-me.webp" loading="lazy" alt="Gerges Naguib" />
           </div>
           <div className="md:flex-3/3 lg:flex-1/2 py-5 pt-10 xl:mt-16">
             <div className="mb-5">
               <h3 className="text-2xl font-semibold mb-3">Who Am I</h3>
               <p className="mb-4 text-justify text-(--neutral)">
-                I'm a frontend developer passionate about crafting clean,
-                responsive, and accessible user interfaces using modern tools
-                like React.js and Tailwind CSS. While I'm still studying
-                Computer Science at Thebes Academy (2023-2027), I've been
-                consistently building real-world projects, learning best
-                practices, and staying up to date with modern development
-                trends.
+                Passionate Front-End Developer with hands-on experience building
+                responsive and accessible web applications using React.js,
+                JavaScript (ES6+), HTML5, CSS3/SASS, and modern UI libraries
+                such as Tailwind CSS and Bootstrap. Has developed multiple
+                real-world projects, including personal portfolios and
+                API-integrated applications, with a strong focus on performance,
+                usability, and clean UI/UX. He enjoys working in Agile
+                environments and contributing to Git-based workflows, pair
+                programming, and code reviews.
               </p>
               <p className="text-justify text-(--neutral)">
                 I focus on writing clean code, building pixel-perfect layouts,
